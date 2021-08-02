@@ -11,7 +11,7 @@ NVM INSTALL
 ### Get all dependencies
 
 ```
-YARN
+YARN --ignore-engines
 ```
 
 ### Start server
