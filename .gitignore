@@ -1,0 +1,14 @@
+.DS_STORE
+dist
+coverage
+node_modules
+.idea
+yarn-error.log
+tests_output/
+webpack-stats.html
+local.log
+test-results.json
+.vscode/
+package-lock.json
+.yarnrc
+.cache
