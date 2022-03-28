@@ -18,4 +18,5 @@ YARN --ignore-engines
 
 ```
 YARN START
+once it has started, you can view on http://localhost:3000/
 ```
