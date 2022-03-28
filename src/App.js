@@ -44,7 +44,7 @@ function App() {
   }
 
   useEffect(() => {
-    const exampleDataURL = 'https://cms-public-staging.eu-west-1.staging.deveng.systems/tu/content/features/all-the-components.json'
+    const exampleDataURL = 'https://cms-public-production.eu-west-1.production.deveng.systems/habitat/features/inspiration/bathroom-storage-and-accessories.json'
     fetchData(exampleDataURL)
   }, [])
   return (

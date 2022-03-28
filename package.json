@@ -19,6 +19,13 @@
     "--------- HELPERS --------------------------": "",
     "nuke": "yarn cache clean && rm -rf node_modules && yarn"
   },
+  "peerDependencies": {
+    "react": ">= 16.8.0",
+    "react-dom": ">= 16.8.0",
+    "react-redux": ">=7.x",
+    "redux": ">=4.x",
+    "styled-components": ">= 5.x"
+  },
   "devDependencies": {
     "@babel/core": "^7.13.15",
     "@babel/plugin-proposal-class-properties": "^7.13.0",
@@ -74,16 +81,14 @@
   "dependencies": {
     "@argos/header-fetcher": "^6.0.0",
     "@argos/utils": "^2.0.0",
-    "@sainsburys-tech/bolt": "5.23.1",
-    "@sainsburys-tech/bolt-cms-components": "3.55.0",
-    "@sainsburys-tech/bolt-icons": "^0.6.0",
-    "@sainsburys-tech/bolt-vocab-provider": "0.3.0",
-    "@sainsburys-tech/boltui-style": "^7.3.0",
-    "@sainsburys-tech/boltui-utils": "0.4.0",
-    "@sainsburys-tech/boltui-vendor": "^5.0.5",
-    "react": "16.12.0",
+    "@sainsburys-tech/bolt": "^6.55.3",
+    "@sainsburys-tech/bolt-vocab-provider": "^0.3.7",
+    "@sainsburys-tech/bolt-cms-components": "^3.103.0",
+    "@sainsburys-tech/bolt-icons": "^0.12.7",
+    "@sainsburys-tech/boltui-style": "^8.0.7",
+    "@sainsburys-tech/boltui-utils": "^0.9.0",
+    "@sainsburys-tech/boltui-vendor": "^5.0.10",
     "react-content-loader": "3.1.2",
-    "react-dom": "16.12.0",
     "styled-components": "5.3.0"
   }
 }
