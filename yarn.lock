@@ -2,57 +2,6 @@
 # yarn lockfile v1
 
 
-"@argos/alert@^2.0.1":
-  version "2.0.1"
-  resolved "https://nexus.deveng.systems/content/groups/NPM/@argos/alert/-/alert-2.0.1.tgz#1c97ce31f8b9a7dc3a40669857c56939901c69e0"
-  integrity sha1-HJfOMfi5p9w6QGaYV8VpOZAcaeA=
-  dependencies:
-    "@argos/bolt" "^2.0.1"
-    "@argos/icons" "^1.0.10"
-    "@argos/svg" "^1.0.6"
-    "@argos/utils" "^2.0.0"
-
-"@argos/bolt@^2.0.1":
-  version "2.0.4"
-  resolved "https://nexus.deveng.systems/content/groups/NPM/@argos/bolt/-/bolt-2.0.4.tgz#4c149e7415e3bf3572a4828baea501951d506db5"
-  integrity sha512-WmTm3eKsChgvLfP581q7VtgOSvL4BkPVmFCK/YlrknEX8kw+IWq2SUN8GVKO1uiw8ju2/1aUbJ3iu6CX0DERXg==
-
-"@argos/error-boundary@2.0.1":
-  version "2.0.1"
-  resolved "https://nexus.deveng.systems/content/groups/NPM/@argos/error-boundary/-/error-boundary-2.0.1.tgz#af059c1ca92d0af3b4162bf1585e96df62cf7b6b"
-  integrity sha1-rwWcHKktCvO0FivxWF6W32LPe2s=
-  dependencies:
-    "@argos/alert" "^2.0.1"
-    "@argos/bolt" "^2.0.1"
-    "@argos/utils" "^2.0.0"
-    raven-js "3.19.1"
-
-"@argos/header-fetcher@^6.0.0":
-  version "6.0.0"
-  resolved "https://nexus.deveng.systems/content/groups/NPM/@argos/header-fetcher/-/header-fetcher-6.0.0.tgz#9f55925c327f78300e16c8c82cce324c0a3e271c"
-  integrity sha512-6IH6jL/aiU3yqD25FrmEanvzRWP+6uL6/c0Y8877aA/RDUydOuzeZKRTAkImFBjlPxjF5XQMztmkmIBayROL7Q==
-  dependencies:
-    "@argos/error-boundary" "2.0.1"
-    "@argos/utils" "^2.1.0"
-    express-request-proxy "^2.2.2"
-    isomorphic-unfetch "^2.1.1"
-    react-argos-header "^2.5.6"
-
-"@argos/icons@^1.0.10":
-  version "1.0.10"
-  resolved "https://nexus.deveng.systems/content/groups/NPM/@argos/icons/-/icons-1.0.10.tgz#a0e64ebbfde728f4d7ed7dc15f53dc8ba0f0d43a"
-  integrity sha512-zq1LHfT+gAvF44xPlmL+8+WK9G1b2Mm7prTSWARXV51EcqdQwFnz59G9j2epH95AcMo/0K4dvyJJJM3hpLtA9g==
-
-"@argos/svg@^1.0.6":
-  version "1.0.6"
-  resolved "https://nexus.deveng.systems/content/groups/NPM/@argos/svg/-/svg-1.0.6.tgz#6eed19d193a801f5841df56aa85faac835987a7e"
-  integrity sha512-j+ZR7A+9TzHMZwvR8zkJNBxkuznxe7G3KgB1R/roeuB9ctHg4Rg/DQAKRxVhuPRXQyEq1rHU3nmG8+Yisr0Frw==
-
-"@argos/utils@^2.0.0", "@argos/utils@^2.1.0":
-  version "2.1.0"
-  resolved "https://nexus.deveng.systems/content/groups/NPM/@argos/utils/-/utils-2.1.0.tgz#48d4305f098927eec53fac259af9a5dcbe285bad"
-  integrity sha512-+aKIhRuj6RVihZEEhfjqO5O/M/MWTOyGTqHXn2bjIH38Up2cLxorNtQfh4oXg1VFxgpilcNyOxgNSLiT5kLDQw==
-
 "@babel/code-frame@7.0.0-beta.44":
   version "7.0.0-beta.44"
   resolved "https://nexus.deveng.systems/content/groups/NPM/@babel/code-frame/-/code-frame-7.0.0-beta.44.tgz#2a02643368de80916162be70865c97774f3adbd9"
@@ -1945,11 +1894,6 @@ are-we-there-yet@~1.1.2:
     delegates "^1.0.0"
     readable-stream "^2.0.6"
 
-argos-findability-url-builder@^3.0.0:
-  version "3.0.0"
-  resolved "https://nexus.deveng.systems/content/groups/NPM/argos-findability-url-builder/-/argos-findability-url-builder-3.0.0.tgz#67a582f07398fdf3f90dac19f279af59a430b19b"
-  integrity sha512-a02xdQ1Gj15cg9sWFjnWTYna3hZ87kvS9EPnJS48XLl3eFAJXLYOky4YjHbRTxtQjbtCDUVeYh6hxw03m5uLqw==
-
 argparse@^1.0.7:
   version "1.0.10"
   resolved "https://nexus.deveng.systems/content/groups/NPM/argparse/-/argparse-1.0.10.tgz#bcd6791ea5ae09725e17e5ad988134cd40b3d911"
@@ -2916,7 +2860,7 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@^2.1.2, classnames@^2.2.0:
+classnames@^2.2.0:
   version "2.3.1"
   resolved "https://nexus.deveng.systems/content/groups/NPM/classnames/-/classnames-2.3.1.tgz#dfcfa3891e306ec1dad105d0e88f4417b8535e8e"
   integrity sha512-OlQdbZ7gLfGarSqxesMesDa5uz7KFbID8Kpq/SxIoNGDqY8lSYs0D+hhtBXhcdB3rcbXArFr7vlHheLk1voeNA==
@@ -3318,11 +3262,6 @@ cross-spawn@^7.0.3:
     path-key "^3.1.0"
     shebang-command "^2.0.0"
     which "^2.0.1"
-
-cross-storage@^1.0.0:
-  version "1.0.0"
-  resolved "https://nexus.deveng.systems/content/groups/NPM/cross-storage/-/cross-storage-1.0.0.tgz#70950377241484f17ce9559b05d2e08448e17660"
-  integrity sha1-cJUDdyQUhPF86VWbBdLghEjhdmA=
 
 crypto-browserify@^3.11.0:
   version "3.12.0"
@@ -6075,14 +6014,6 @@ isobject@^3.0.0, isobject@^3.0.1:
   resolved "https://nexus.deveng.systems/content/groups/NPM/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
   integrity sha1-TkMekrEalzFjaqH5yNHMvP2reN8=
 
-isomorphic-unfetch@^2.1.1:
-  version "2.1.1"
-  resolved "https://nexus.deveng.systems/content/groups/NPM/isomorphic-unfetch/-/isomorphic-unfetch-2.1.1.tgz#c321770bcd682c5c8550f31146fc7dd21ac33e7b"
-  integrity sha512-nd8AULy4i2rA8dv0nOBT9xieIegd3xi7NDxTQ9+iNXDTyaG6VbUYW3F+TdMRqxqXhDFWM2k7fttKx9W2Wd8JpQ==
-  dependencies:
-    node-fetch "^2.1.2"
-    unfetch "^3.1.0"
-
 isomorphic-unfetch@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/isomorphic-unfetch/-/isomorphic-unfetch-3.1.0.tgz#87341d5f4f7b63843d468438128cb087b7c3e98f"
@@ -7047,11 +6978,6 @@ node-abi@^2.7.0:
   dependencies:
     semver "^5.4.1"
 
-node-fetch@^2.1.2:
-  version "2.6.1"
-  resolved "https://nexus.deveng.systems/content/groups/NPM/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
-  integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
-
 node-fetch@^2.6.1:
   version "2.6.7"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
@@ -7259,11 +7185,6 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://nexus.deveng.systems/content/groups/NPM/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
-
-nvm@^0.0.4:
-  version "0.0.4"
-  resolved "https://nexus.deveng.systems/content/groups/NPM/nvm/-/nvm-0.0.4.tgz#38a178e9d31b283508c92d15c9da861d1a9210bc"
-  integrity sha1-OKF46dMbKDUIyS0VydqGHRqSELw=
 
 oauth-sign@~0.9.0:
   version "0.9.0"
@@ -8244,11 +8165,6 @@ range-parser@^1.2.1, range-parser@~1.2.1:
   resolved "https://nexus.deveng.systems/content/groups/NPM/range-parser/-/range-parser-1.2.1.tgz#3cf37023d199e1c24d1a55b84800c2f3e6468031"
   integrity sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg==
 
-raven-js@3.19.1:
-  version "3.19.1"
-  resolved "https://nexus.deveng.systems/content/groups/NPM/raven-js/-/raven-js-3.19.1.tgz#a5d25646556fc2c86d2b188ae4f425c144c08dd8"
-  integrity sha512-E01uqSgP4JJIZNCaug2rV8g3JcIabLP09POLJ6wpM0oWftfnjqIWHYipUuscltCjQAxsPV3FFnMkW22/93qgig==
-
 raw-body@2.4.0:
   version "2.4.0"
   resolved "https://nexus.deveng.systems/content/groups/NPM/raw-body/-/raw-body-2.4.0.tgz#a1ce6fb9c9bc356ca52e89256ab59059e13d0332"
@@ -8268,17 +8184,6 @@ rc@^1.2.7:
     ini "~1.3.0"
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
-
-react-argos-header@^2.5.6:
-  version "2.5.6"
-  resolved "https://nexus.deveng.systems/content/groups/NPM/react-argos-header/-/react-argos-header-2.5.6.tgz#42aaa2400c6b367904ab329eddc6cfffa7610b67"
-  integrity sha1-QqqiQAxrNnkEqzKe3cbP/6dhC2c=
-  dependencies:
-    argos-findability-url-builder "^3.0.0"
-    classnames "^2.1.2"
-    cross-storage "^1.0.0"
-    nvm "^0.0.4"
-    superagent "^3.6.0"
 
 react-clientside-effect@^1.2.5:
   version "1.2.5"
@@ -9874,7 +9779,7 @@ sugarss@^2.0.0:
   dependencies:
     postcss "^7.0.2"
 
-superagent@3.8.3, superagent@^3.6.0:
+superagent@3.8.3:
   version "3.8.3"
   resolved "https://nexus.deveng.systems/content/groups/NPM/superagent/-/superagent-3.8.3.tgz#460ea0dbdb7d5b11bc4f78deba565f86a178e128"
   integrity sha512-GLQtLMCoEIK4eDv6OGtkOoSMt3D+oq0y3dsxMuYuDvaNUvuT8eFBuLmfR0iYYzHC1e8hpzC6ZsxbuP6DIalMFA==
@@ -10302,11 +10207,6 @@ unfetch@4.2.0, unfetch@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/unfetch/-/unfetch-4.2.0.tgz#7e21b0ef7d363d8d9af0fb929a5555f6ef97a3be"
   integrity sha512-F9p7yYCn6cIW9El1zi0HI6vqpeIvBsr3dSuRO6Xuppb1u5rXpCPmMvLSyECLhybr9isec8Ohl0hPekMVrEinDA==
-
-unfetch@^3.1.0:
-  version "3.1.2"
-  resolved "https://nexus.deveng.systems/content/groups/NPM/unfetch/-/unfetch-3.1.2.tgz#dc271ef77a2800768f7b459673c5604b5101ef77"
-  integrity sha512-L0qrK7ZeAudGiKYw6nzFjnJ2D5WHblUBwmHIqtPS6oKUd+Hcpk7/hKsSmcHsTlpd1TbTNsiRBUKRq3bHLNIqIw==
 
 unherit@^1.0.4:
   version "1.1.3"

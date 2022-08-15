@@ -79,8 +79,6 @@
     "webpack-visualizer-plugin": "^0.1.11"
   },
   "dependencies": {
-    "@argos/header-fetcher": "^6.0.0",
-    "@argos/utils": "^2.0.0",
     "@sainsburys-tech/bolt": "^10.2.1",
     "@sainsburys-tech/bolt-vocab-provider": "^0.3.7",
     "@sainsburys-tech/bolt-cms-components": "7.4.0",
