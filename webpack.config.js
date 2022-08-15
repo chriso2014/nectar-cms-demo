@@ -41,7 +41,7 @@ module.exports = {
     rules: [
       {
         test: /\.(js|jsx)$/,
-        include: [/src/, /argos-(.*)\/esnext/, /@argos\/(.*)\/esnext/],
+        include: [/src/, /argos-(.*)\/esnext/],
         use: [
           {
             loader: 'babel-loader',
@@ -50,7 +50,7 @@ module.exports = {
       },
       {
         test: /\.scss$/,
-        include: [/src/, /argos-(.*)\/esnext/, /@argos\/(.*)\/esnext/],
+        include: [/src/, /argos-(.*)\/esnext/],
         use: [
           {
             loader: ExtractCssChunksPlugin.loader,
@@ -96,7 +96,7 @@ module.exports = {
       },
       {
         test: /\.svg$/,
-        include: [/src/, /argos-(.*)\/esnext/, /@argos\/(.*)\/esnext/],
+        include: [/src/, /argos-(.*)\/esnext/],
         loader: 'svg-inline-loader',
         options: {
           removeSVGTagAttrs: false,
